@@ -95,6 +95,9 @@ header p{
 .padding-y-50{
     padding: 50px 0;
 }
+.padding-100{
+    padding-top: 100px ;
+}
 header  .col-25{
     padding: 5px 5px;
 }
@@ -149,12 +152,13 @@ footer .container:first-child{
 .bg_white{
     background-color: white;
 }
-.bg_violet{
-    background-color: rgb(199, 92, 190);
+.bg_blue{
+    background-color: rgb(131, 135, 192);
 }
-.bg_pink{
-    background-color: pink;
+.bg_black{
+    background-color: rgb(39, 39, 39);
 }
+
 .img-bg-grey{
     background-image:url(../img/wave.svg);
     background-size: cover;
@@ -162,22 +166,11 @@ footer .container:first-child{
 }
 .bg-transp{
     background-color: rgba(255, 255, 255, 0.932);
-}
-.bg_green{
-    background-color: green;
-}
-.bg_red{
-    background-color: red;
-}
-.bg_cyan{
-    background-color: cyan;
     
 }
-.bg_black{
-    background-color: rgb(43, 43, 43);
-}
-.bg_lightgreen{
-    background-color: lightgreen;
+.star{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
 }
 
 
