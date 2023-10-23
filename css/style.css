@@ -175,6 +175,7 @@ footer .container:first-child{
 .star{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
+    background-position-x: center;
 }
 /* FOOTER  */
 .leng > img{
