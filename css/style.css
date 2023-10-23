@@ -74,12 +74,7 @@ header p{
 }
 
 /* BORDERS and PADDING */
-.border{
-    border: 1px dotted black;
-}
-.light-border{
-    border: 1px dotted white;
-}
+
 .padding-5{
     padding: 5px 0;
 }
@@ -112,6 +107,12 @@ footer .container:first-child{
 }
 .margin-30{
     margin: 30px;
+}
+.margin-10{
+    margin:10px;
+}
+.margin-left{
+    margin-left: 50px;
 }
 
 /* COLUMS  */
@@ -149,6 +150,9 @@ footer .container:first-child{
 .text-white{
     color: #fff;
 }
+.text-blue{
+    color: rgb(131, 135, 192);
+}
 .bg_white{
     background-color: white;
 }
@@ -172,15 +176,14 @@ footer .container:first-child{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
 }
+/* FOOTER  */
+.leng > img{
+    width: 30px;
+    
+}
+footer li{
+    list-style-type: none;
+    line-height: 30px;
+}
 
 
-/* HEIGHT  */
-.h-400{
-    height: 400px;
-}
-.h-500{
-    height: 500px;
-}
-.h-700{
-    height: 700px;
-}
