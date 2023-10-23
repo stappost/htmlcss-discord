@@ -6,11 +6,24 @@
 
 /* HEADER  */
 header{
-    background-color: rgb(66, 202, 202);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     padding: 10px 0;
     
 }
 
+header li{
+    list-style-type: none;
+    margin: 5px 20px;
+    font-size: 20px;
+}
+header button{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+}
 /* CONTAINER  */
 .container{
     max-width: 1200px;
@@ -39,6 +52,7 @@ header{
 .text-sides{
     justify-content: space-between;
 }
+
 
 
 /* BORDERS and PADDING */
@@ -98,8 +112,8 @@ footer .container:first-child{
 
 
 /* BG COLORS  */
-.bg_yellow{
-    background-color: rgb(255, 187, 0);
+.text-white{
+    color: #fff;
 }
 .bg_blue{
     background-color: blue;
