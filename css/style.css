@@ -156,12 +156,12 @@ footer .container:first-child{
     background-color: pink;
 }
 .img-bg-grey{
-    background-image: url(../img/wave.svg);
+    background-image:url(../img/wave.svg);
     background-size: cover;
     
 }
 .bg-transp{
-    background-color: rgba(255, 255, 255, 0.767);
+    background-color: rgba(255, 255, 255, 0.932);
 }
 .bg_green{
     background-color: green;
