@@ -8,7 +8,7 @@
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 10px 0;
+    padding: 10px 0 50px 0;
     
 }
 
@@ -17,12 +17,12 @@ header li{
     margin: 5px 20px;
     font-size: 20px;
 }
-header button{
+.log-button{
     padding: 10px;
     background-color: #fff;
     border-radius: 30px;
     border: none;
-    font-weight: 600;
+    
 }
 /* CONTAINER  */
 .container{
@@ -52,8 +52,26 @@ header button{
 .text-sides{
     justify-content: space-between;
 }
-
-
+/* TEXT FORMAT  */
+.text-align-center{
+    text-align: center;
+}
+.size-20{
+    font-size: 20px;
+}
+.size-50{
+    font-size: 50px;
+}
+.bold{
+    font-weight: 700;
+}
+header p{
+    line-height: 30px;
+}
+.border-radius{
+    border-radius: 30px;
+    border: none;
+}
 
 /* BORDERS and PADDING */
 .border{
@@ -65,12 +83,14 @@ header button{
 .padding-5{
     padding: 5px 0;
 }
-
 .padding-10{
+    padding: 10px;
+}
+.padding-y-10{
     padding: 10px 0;
 }
 .padding-20{
-    padding: 20px 0;
+    padding: 20px;
 }
 header  .col-25{
     padding: 5px 5px;
@@ -78,7 +98,15 @@ header  .col-25{
 footer .container:first-child{
     margin-bottom: 10px;
 }
-
+.margin-y-30{
+    margin: 30px 0;
+}
+.margin-y-50{
+    margin: 50px 0;
+}
+.margin-30{
+    margin: 30px;
+}
 
 /* COLUMS  */
 .col-20{
@@ -115,8 +143,8 @@ footer .container:first-child{
 .text-white{
     color: #fff;
 }
-.bg_blue{
-    background-color: blue;
+.bg_white{
+    background-color: white;
 }
 .bg_violet{
     background-color: rgb(199, 92, 190);
